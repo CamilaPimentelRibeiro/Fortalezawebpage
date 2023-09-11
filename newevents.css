@@ -34,7 +34,7 @@ nav {
     top: 0;
     width: 100%;
     right: 0;
-    height: 60px;
+    height: 40px;
     font-family: "Work Sans", sans-serif;
     z-index: 1;
 } 
@@ -58,7 +58,7 @@ nav a {
 nav ul {
     list-style-type: disc;
     background-color:  #CB7F55;
-    height: 60px;
+    height: 40px;
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
