@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Work+Sans:wght@200;500&display=swap');
+
+body{
+    background-color: white;
+    margin: 0;
+    width: 100%;
+}
+
+h1{
+    font-family: "Work Sans", sans-serif;
+    font-size: 164px;
+    padding-top: 0;
+    padding-bottom: 0.1em;
+    width: 100%;
+    display: block;
+    position: absolute;
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-weight:bolder;
+    z-index: 1;
+    pointer-events: none;
+    animation-name: example;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+nav {
+    position: absolute;
+    width: 100%;
+    font-size: 1em;
+    margin: 0px;
+    padding-bottom: 0px;
+    top: 0;
+    width: 100%;
+    right: 0;
+    height: 40px;
+    font-family: "Work Sans", sans-serif;
+    z-index: 1;
+}
+nav li {
+    display: inline-block;
+    margin: 0px;
+    padding-top: 3px;
+    margin-inline-start: 25px;
+}
+nav a {
+    padding: 5px;
+    width: 10em;
+    font-weight: bold;
+    border-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;   
+}
+nav ul {
+    list-style-type: disc;
+    background-color: #CB7F55;
+    height: 40px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+    text-align: center;
+    padding-left: 0;
+}
+#playAudio {
+    color: white;
+}
+#playAudio:hover {
+    color: #683636 ;
+}
+nav a:visited {
+    color: white;
+}
+nav a:hover {
+    color: #683636 ;
+}
+nav li:first-child {
+    margin-left: 15px;
+}
+#image{
+    position: relative;
+    width: 100%;
+    display: block; 
+    text-align: center;
+    top: 80px;
+}
+#image img {
+    vertical-align: middle;  
+    transition: transform 2s;
+}
+#image img:hover {
+    transform: scale(0.9, 0.9);
+}
+#wrapper{
+    width: 68%;
+    display: block;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    position: relative;
+    color: #495150;
+    padding-top: 5px;
+}
+#attributions{
+    width: 77%;
+    font-size:small;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    color: #495150;
+    padding-top: 0px;
+    padding-bottom: 0px;  
+}
+#attributions a{
+    list-style-type: disc;
+    height: auto;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: #A36546;
+    text-align: center;
+    padding-left: 0; 
+}
+h3{
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    color: #A36546;
+}
+h4{
+    display: none;
+}
+h2{
+    font-family: "Work Sans", sans-serif;
+    position: relative;
+    font-size: 53px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3px;
+    color: #6A817E;
+    padding-top: 65px;
+    padding-bottom: 0;
+    z-index: 1; 
+}
+footer{
+    text-align: center;
+    background-color: #A36546;
+    height: 85px;
+    margin-bottom: 0;
+    font-weight: 100;
+    width: auto;
+    display: block;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    font-size:medium;
+}
+footer p{
+    width: 68%;
+    display: block;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    position: relative;
+    color: white;
+    padding-top: 1em;
+}
+#spotify{
+    margin-bottom: 0;
+    position: relative;
+    text-align: right;
+    display: flex;
+    float: right;
+    width: 20%;
+    height: 5%;
+    margin-right: 19%;
+    border-radius:12px;
+}
+iframe{
+    border: none;
+}
+#wrapper h5{
+    padding-top: 0;
+    margin-top: 0;
+}
+#wrapper h5{
+    font-family: "Work Sans", sans-serif;
+    margin: 0;
+    margin-left: 0;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 0.7em;
+    color: #6A817E;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+@keyframes example {
+    0%   {left:40px; top:0px;}
+    25%  {left:150px; top:0px;}
+    75%  {left:-140px; top:0px;}
+    100% {left:150px; top:0px;}
+}
+#waveaudio{
+    display: none;
+}
+h6{
+    display: none;
+}

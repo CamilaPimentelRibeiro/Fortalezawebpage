@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Work+Sans:wght@200;500&display=swap');
+
+body{
+    background-color: white;
+    margin: 0;
+    width: 100%;
+}
+h1{
+    font-family: "Work Sans", sans-serif;
+    font-size: 164px;
+    padding-top: 0;
+    padding-bottom: 0.3em;
+    width: 100%;
+    display: block;
+    position: absolute;
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-weight:bolder;
+    z-index: 1;
+    pointer-events: none;
+    animation-name: example;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+nav {
+    position: absolute;
+    width: 100%;
+    font-size: 1em;
+    margin: 0px;
+    padding-bottom: 0px;
+    top: 0;
+    width: 100%;
+    right: 0;
+    height: 40px;
+    font-family: "Work Sans", sans-serif;
+    z-index: 1;
+}
+ nav li {
+    display: inline-block;
+    margin: 0px;
+    padding-top: 3px;
+    margin-inline-start: 25px;
+}
+nav a {
+    padding: 5px;
+    width: 10em;
+    font-weight: bold;
+    border-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+nav ul {
+    list-style-type: disc;
+    background-color: #CB7F55;
+    height: 40px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+    text-align: center;
+    padding-left: 0;
+}
+#playAudio {
+    color: white;
+}
+#playAudio:hover {
+    color: #683636 ;
+}
+nav a:visited {
+    color: white;
+}
+nav a:hover {
+    color: #683636 ;
+}
+nav li:first-child {
+    margin-left: 15px;
+}
+#video{
+    position: relative;
+    width: 100%;
+    display: block; 
+    text-align: center;
+    top: 20px;
+    padding-bottom: 0;
+}
+#wrapper{
+    width: 77%;
+    display: block;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    position: relative;
+    color: #495150;
+    padding-top: 2em;
+}
+h3{
+    font-family: "Work Sans", sans-serif;
+    position: absolute;
+    font-size: 104px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    z-index: 1;
+    animation-name: h3;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    
+}
+footer{
+    text-align: center;
+    background-color: #A36546;
+    height: 85px;
+    margin-bottom: 0;
+    font-weight: 100;
+    width: auto;
+    display: block;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    font-size:medium;
+}
+p{
+    width: 68%;
+    display: block;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    position: relative;
+    color: white;
+    padding-top: 1em;
+}
+#image{
+    position: relative;
+    width: 100%;
+    display: block; 
+    text-align: center;
+    top: 80px;
+}
+#image img {
+    vertical-align: middle;  
+    transition: transform 2s;
+}
+#image img:hover {
+    transform: scale(0.9, 0.9);
+}
+#spotify{
+    margin-bottom: 0;
+    position: relative;
+    text-align: right;
+    display: flex;
+    float: right;
+    width: 20%;
+    height: 5%;
+    margin-right: 19%;
+    border-radius:12px;
+}
+iframe{
+    border: none;
+}
+@keyframes example {
+    0%   {left:40px; top:0px;}
+    25%  {left:150px; top:0px;}
+    75%  {left:-140px; top:0px;}
+    100% {left:150px; top:0px;}
+}
+
+@keyframes h3 {
+    0%   {left:40px; top:290px;}
+    25%  {left:150px; top:290px;}
+    75%  {left:-140px; top:290px;}
+    100% {left:150px; top:290px;}
+}
+#waveaudio{
+    display: none;
+}
+h6{
+    display: none;
+}
+
