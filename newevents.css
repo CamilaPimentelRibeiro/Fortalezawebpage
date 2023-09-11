@@ -41,7 +41,7 @@ nav {
 nav li {
     display: inline-block;
     margin: 0px;
-    padding-top: 2px;
+    padding-top: 3px;
     margin-inline-start: 15px;
 }
 nav a {
@@ -53,7 +53,8 @@ nav a {
     text-decoration: none;
     display: block;
     margin-left: 0px;
-    margin-right: 0px;   
+    margin-right: 0px;
+    color: white;
 }
 nav ul {
     list-style-type: disc;
